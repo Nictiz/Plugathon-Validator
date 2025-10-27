@@ -24,7 +24,6 @@ if not exist "%OUTPUT_DIR%" (
     mkdir "%OUTPUT_DIR%"
 )
 
-%CONTAINER_ENGINE% build -t plugathon-validator .tools
-%CONTAINER_ENGINE% container create -it --name plugathon-validator --volume ./input:/ig/input --volume ./output:/ig/output -p 4000:4000 --workdir /ig plugathon-validator
+%CONTAINER_ENGINE% container create -it --name plugathon-validator --volume ./input:/ig/input --volume ./output:/ig/output -p 4000:4000 --workdir /ig ghcr.io/nictiz/plugathon-validator
 
 pause

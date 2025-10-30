@@ -1,0 +1,76 @@
+{
+  "resourceType": "Observation",
+  "id": "bloeddruk-swart",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Vital Signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "85354-9",
+        "system": "http://loinc.org",
+        "display": "Blood pressure panel with all children optional"
+      },
+      {
+        "code": "55284-4",
+        "system": "http://loinc.org",
+        "display": "Blood pressure systolic and diastolic"
+      },
+      {
+        "code": "46973005",
+        "system": "http://snomed.info/sct",
+        "display": "Blood pressure taking"
+      }
+    ]
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "8480-6",
+            "system": "http://loinc.org",
+            "display": "Systolic blood pressure"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 120,
+        "code": "mm[Hg]",
+        "system": "http://unitsofmeasure.org",
+        "unit": "mmHg"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "8462-4",
+            "system": "http://loinc.org",
+            "display": "Diastolic blood pressure"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 70,
+        "code": "mm[Hg]",
+        "system": "http://unitsofmeasure.org",
+        "unit": "mmHg"
+      }
+    }
+  ],
+  "status": "final",
+  "subject": {
+    "reference": "http://example.org/Patient/patient-swart",
+    "display": "Fiona F XXX_Swart"
+  },
+  "effectiveDateTime": "2025-02-08"
+}

@@ -1,0 +1,36 @@
+{
+  "resourceType": "Observation",
+  "id": "gewicht-swart",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "vital-signs",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display": "Vital Signs"
+        }
+      ]
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "29463-7",
+        "system": "http://loinc.org",
+        "display": "Body weight"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "http://example.org/Patient/patient-swart",
+    "display": "Fiona F XXX_Swart"
+  },
+  "effectiveDateTime": "2025-02-08",
+  "valueQuantity": {
+    "value": 63,
+    "code": "kg",
+    "system": "http://unitsofmeasure.org",
+    "unit": "kg"
+  }
+}

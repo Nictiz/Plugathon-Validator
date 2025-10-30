@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "lab-swart-5",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "93846-4",
+        "system": "http://loinc.org",
+        "display": "Hemoglobin [Moles/volume] in Venous blood"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "http://example.org/Patient/patient-swart",
+    "display": "Fiona F XXX_Swart"
+  },
+  "effectiveDateTime": "2025-02-08",
+  "valueQuantity": {
+    "value": 7.3,
+    "code": "mmol/L",
+    "system": "http://unitsofmeasure.org",
+    "unit": "mmol/L"
+  }
+}

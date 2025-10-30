@@ -1,0 +1,41 @@
+{
+  "resourceType": "Encounter",
+  "id": "ziekenhuisopname-swart",
+  "period": {
+    "start": "2025-02-08T10:00:00+00:00",
+    "end": "2025-02-12T12:00:00+00:00"
+  },
+  "reasonCode": [
+    {
+      "coding": [
+        {
+          "code": "65147003",
+          "system": "http://snomed.info/sct",
+          "display": "Twin pregnancy"
+        }
+      ]
+    }
+  ],
+  "reasonReference": [
+    {
+      "reference": "http://example.org/Condition/condition-meerling",
+      "display": "Twin pregnancy"
+    }
+  ],
+  "diagnosis": [
+    {
+      "condition": {
+        "reference": "http://example.org/Condition/condition-meerling",
+        "display": "monochoriale diamniotische tweelingzwangerschap"
+      }
+    }
+  ],
+  "status": "finished",
+  "class": {
+    "code": "IMP"
+  },
+  "subject": {
+    "reference": "http://example.org/Patient/patient-swart",
+    "display": "Fiona F XXX_Swart"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "resourceType": "Observation",
+  "id": "tobacco-swart",
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "53661000146106",
+            "system": "http://snomed.info/sct",
+            "display": "Type of tobacco used (observable entity)"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "722499006",
+            "system": "http://snomed.info/sct",
+            "display": "Electronic cigarette user"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "266918002",
+            "system": "http://snomed.info/sct",
+            "display": "Tobacco smoking consumption (observable entity)"
+          }
+        ]
+      },
+      "valueQuantity": {
+        "value": 6,
+        "code": "{keer per dag inhaleren}",
+        "system": "http://unitsofmeasure.org",
+        "unit": "keer per dag inhaleren"
+      }
+    }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "365980008",
+        "system": "http://snomed.info/sct",
+        "display": "Finding of tobacco use and exposure (finding)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "http://example.org/Patient/patient-swart",
+    "display": "Fiona F XXX_Swart"
+  },
+  "effectiveDateTime": "2025-02-08",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "230059006",
+        "system": "http://snomed.info/sct",
+        "display": "Occasional cigarette smoker"
+      }
+    ]
+  }
+}

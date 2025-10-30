@@ -1,0 +1,28 @@
+{
+  "resourceType": "Observation",
+  "id": "lab-swart-6",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "29893-5",
+        "system": "http://loinc.org",
+        "display": "HIV 1 Ab [Presence] in Serum or Plasma by Immunoassay"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "http://example.org/Patient/patient-swart",
+    "display": "Fiona F XXX_Swart"
+  },
+  "effectiveDateTime": "2025-02-08",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "165815009",
+        "system": "http://snomed.info/sct",
+        "display": "HIV not detected"
+      }
+    ]
+  }
+}

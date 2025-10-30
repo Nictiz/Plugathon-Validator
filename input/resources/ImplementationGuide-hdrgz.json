@@ -1,0 +1,169 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hdrgz",
+  "url": "http://hdrgz.org/ImplementationGuide/hdrgz",
+  "version": "0.1.0",
+  "name": "hdrgz",
+  "status": "draft",
+  "publisher": "Example Publisher",
+  "contact": [
+    {
+      "name": "Example Publisher",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.org/example-publisher"
+        }
+      ]
+    }
+  ],
+  "packageId": "hdrgz",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "Observation/lab-swart-3"
+        },
+        "name": "ABO group",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/alcohol-swart"
+        },
+        "name": "Alcohol consumption",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/bloeddruk-swart"
+        },
+        "name": "Blood pressure",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/gewicht-swart"
+        },
+        "name": "Body weight",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Bundle/bundle-swart"
+        },
+        "name": "Bundle for Fiona Swart HDR",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/organization-sophia"
+        },
+        "name": "Erasmus MC, Sophia kinderziekenhuis",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/levenvoelen-swart"
+        },
+        "name": "Fetal movement",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/lab-swart-5"
+        },
+        "name": "Hemoglobine",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/lab-swart-6"
+        },
+        "name": "HIV 1 As [aanwezigheid] in serum of plasma d.m.v. immunoassay",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Composition/composition-swart"
+        },
+        "name": "Hospital Discharge summary",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-swart"
+        },
+        "name": "Patient Fiona F XXX_Swart",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Encounter/ziekenhuisopname-swart"
+        },
+        "name": "Planned hospital admission for twin delivery",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/lab-swart-4"
+        },
+        "name": "Rh D factor",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Procedure/sectio-swart"
+        },
+        "name": "Sectio caesarea",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/tobacco-swart"
+        },
+        "name": "Tobacco smoking",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Condition/condition-meerling"
+        },
+        "name": "Twin pregnancy",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Condition/condition-growth"
+        },
+        "name": "Twin pregnancy",
+        "exampleBoolean": true
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2025+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

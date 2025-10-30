@@ -1,0 +1,28 @@
+{
+  "resourceType": "Observation",
+  "id": "alcohol-swart",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "228273003",
+        "system": "http://snomed.info/sct",
+        "display": "Alcohol drinking behaviour"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "http://example.org/Patient/patient-swart",
+    "display": "Fiona F XXX_Swart"
+  },
+  "effectiveDateTime": "2025-02-08",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "105542008",
+        "system": "http://snomed.info/sct",
+        "display": "Current non-drinker of alcohol"
+      }
+    ]
+  }
+}

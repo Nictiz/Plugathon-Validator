@@ -1,0 +1,28 @@
+{
+  "resourceType": "Observation",
+  "id": "lab-swart-3",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "883-9",
+        "system": "http://loinc.org",
+        "display": "ABO group [Type] in Blood"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "http://example.org/Patient/patient-swart",
+    "display": "Fiona F XXX_Swart"
+  },
+  "effectiveDateTime": "2025-02-08",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "58460004",
+        "system": "http://snomed.info/sct",
+        "display": "Blood group O"
+      }
+    ]
+  }
+}

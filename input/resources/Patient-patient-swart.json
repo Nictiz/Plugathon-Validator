@@ -1,0 +1,88 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-swart",
+  "identifier": [
+    {
+      "system": "http://fhir.nl/fhir/NamingSystem/bsn",
+      "value": "999901448"
+    }
+  ],
+  "name": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order",
+          "valueCode": "NL1"
+        }
+      ],
+      "given": [
+        "Fiona",
+        "F"
+      ],
+      "_given": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "BR"
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier",
+              "valueCode": "IN"
+            }
+          ]
+        }
+      ],
+      "text": "Fiona XXX_Swart",
+      "family": "XXX_Swart",
+      "_family": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name",
+            "valueString": "XXX_Swart"
+          }
+        ]
+      }
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "0655223366",
+      "use": "mobile"
+    }
+  ],
+  "address": [
+    {
+      "line": [
+        "Knolweg 1000"
+      ],
+      "_line": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "Knolweg"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "1000"
+            }
+          ]
+        }
+      ],
+      "use": "home",
+      "type": "physical",
+      "city": "STITSWERD",
+      "postalCode": "9999XA",
+      "country": "NL"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1985-12-23",
+  "multipleBirthBoolean": false
+}

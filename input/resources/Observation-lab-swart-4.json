@@ -1,0 +1,28 @@
+{
+  "resourceType": "Observation",
+  "id": "lab-swart-4",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "1305-2",
+        "system": "http://loinc.org",
+        "display": "D Ag [Presence] in Blood"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "http://example.org/Patient/patient-swart",
+    "display": "Fiona F XXX_Swart"
+  },
+  "effectiveDateTime": "2025-02-08",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "165747007",
+        "system": "http://snomed.info/sct",
+        "display": "RhD positive"
+      }
+    ]
+  }
+}

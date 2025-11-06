@@ -17,7 +17,6 @@ RUN mkdir -p /root/.fhir/packages
 # Create the mount point and make it a trusted to git
 RUN mkdir /ig
 RUN git config --global --add safe.directory /ig
-COPY plugathon.template /ig/plugathon.template
 
 # Install our tools
 RUN mkdir /tools

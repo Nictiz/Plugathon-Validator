@@ -64,6 +64,7 @@ for pkg in /var/lib/.fhir/packages/*; do
         fi
     fi
 done
+cp -r .tools/plugathon.template .
 
 echo "Scanning input/resources for FHIR resource"
 python3 /tools/createIG.py --ig $ig

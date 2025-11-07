@@ -27,6 +27,7 @@ COPY rewriteTxQa.py /tools
 COPY go /tools
 COPY show /tools
 COPY tx /tools
+COPY plugathon.template /tools/plugathon.template
 RUN dos2unix /tools/go
 RUN dos2unix /tools/show
 RUN dos2unix /tools/tx

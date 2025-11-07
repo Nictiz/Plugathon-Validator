@@ -183,3 +183,6 @@ Please note that there are many ways to do profile validation in FHIR, which mig
 - FHIR specific development platforms that offer this functionality out of the box.
 
 HL7 [maintains a Confluence page](https://confluence.hl7.org/spaces/FHIR/pages/35718864/Profile+Tooling) with pointers to implementations. Also see [this ticket](https://nictiz.atlassian.net/browse/MM-1690). 
+
+### 3.11 Do you have an example that I can use?
+There is an example of a European Patient Summry in the "examples" folder. This example originates from a BgZ 2017 example, which was converted using a HAPI FHIR server and then manually fixing _most_ errors.
